@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>038.lesson_18</title>
-</head>
-<body>
-	<h1>HomeWork</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>038.lesson_18</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HomeWork #38</h1>
+      <div class="search-container">
+        <label for="searchInput">API Open Library</label>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Enter book, title or author"
+        />
+        <button onclick="searchBooks()">Search</button>
+      </div>
+    </header>
+    <div id="bookContainer" class="container"></div>
+    <script src="js/script.js"></script>
+  </body>
 </html>
